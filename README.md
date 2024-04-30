@@ -11,9 +11,17 @@ The primary goals of this project are:
 3. **🧽 Handle null and blank values**: Clean or impute missing and blank entries.
 4. **🛠️ Optimize data structure**: Remove unnecessary columns and rows based on the analysis needs.
 
-## 📁 Dataset
+## 📁 Dataset and File Structure
+
+`layoffs.csv`: The dataset file.
 
 The initial dataset includes several columns such as company, location, industry, total_laid_off, percentage_laid_off, date, stage, country, and funds_raised_millions. This data spans various industries and geographical locations.
+
+`Data_cleaning_layoffs_proj.sql`: The Data cleaning process in SQL.
+
+`EDA_layoffs.sql`: Exploratory Data Analysis conducted in SQL.
+
+
 
 ## 🧼 Data Cleaning Steps
 
