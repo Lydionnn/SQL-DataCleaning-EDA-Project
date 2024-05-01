@@ -19,8 +19,7 @@ The initial dataset includes several columns such as company, location, industry
 
 `Data_cleaning_layoffs_proj.sql`: The Data cleaning process in SQL.
 
-`EDA_layoffs.sql`: Exploratory Data Analysis conducted in SQL.
-
+`layoffs_sql_proj.sql`: Exploratory Data Analysis conducted in SQL.
 
 
 ## 🧼 Data Cleaning Steps
@@ -39,6 +38,25 @@ Post-cleaning, various analyses were performed to understand:
 - 📉 Trends in layoffs by industry and location.
 - 🔗 Correlation between layoffs and company funding.
 - 📅 Monthly and yearly patterns in layoffs.
+
+### Key Questions Answered
+
+During the EDA, we focused on answering specific questions that provide insights into the impact of layoffs across different dimensions of the dataset:
+
+1. **What was the company with the biggest amount of layoffs?**
+   - Identifies the major players most affected, highlighting potential vulnerability or industry shifts.
+2. **What was the industry with the most layoffs overall? and in 2022?**
+   - Offers insights into which sectors are declining or facing challenges, crucial for economic analysis and workforce planning.
+3. **What year had the most layoffs?**
+   - Helps understand economic cycles and could correlate with global economic conditions or sector-specific downturns.
+4. **What stage of the business had the most layoffs?**
+   - Sheds light on whether startups, mid-stage, or mature companies are more vulnerable to economic downturns.
+5. **Show a rolling total for the layoffs throughout the months**
+   - Provides a temporal view of layoffs, helping to identify trends or triggers throughout the year.
+6. **What are the 5 companies that had the most layoffs in 2020, 2021, 2022, and 2023?**
+   - Allows for a detailed tracking of company-specific trends over time, offering insights into long-term impacts.
+7. **What are the 3 industries that got hit the hardest with layoffs in 2020, 2021, 2022, and 2023?**
+   - Highlights the industries facing the most significant challenges over recent years, which can guide policy and investment decisions.
 
 ## 🛠️ Tools and Technologies
 
